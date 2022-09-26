@@ -1,0 +1,15 @@
+
+gp
+gp (comm) --help
+gp init
+
+gp open .gitpod.yml //open in text editor
+
+//env
+gp env API_ENDPOINT=https://api.example.com //set environment
+gp env -u API_ENDPOINT //unset //undef
+
+gp sync-done build
+gp sync-await build && npm run dev
+
+gp tasks list
